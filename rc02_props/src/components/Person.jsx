@@ -5,7 +5,7 @@ const Person = (props) => {
   return (
     <div style={{ textAlign: "center" }}>
       <Msg name={name} />
-      <img style={{ width: "200px" }} src={img} alt="img1" />
+      <img style={{ width: "300px" }} src={img} alt="img1" />
       <p>{tel}</p>
     </div>
   );
